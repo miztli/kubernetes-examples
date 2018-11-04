@@ -15,7 +15,7 @@ security:
   user:
     password: no password
 server:
-  address: localhost
+  address: 0.0.0.0
   port: 8080
 db:
   address: localhost
@@ -33,7 +33,7 @@ security:
   user:
     password: weak password
 server:
-  address: localhost
+  address: 0.0.0.0
   port: 8003
 db:
   address: localhost
@@ -51,7 +51,7 @@ security:
   user:
     password: strong password
 server:
-  address: localhost
+  address: 0.0.0.0
   port: 8004
 db:
   address: localhost
